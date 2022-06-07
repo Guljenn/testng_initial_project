@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke" duration-ms="19201" started-at="2022-06-07T02:46:58 CDT" finished-at="2022-06-07T02:47:17 CDT">
+    <groups>
+    </groups>
+    <test name="Critical Functionalities" duration-ms="19201" started-at="2022-06-07T02:46:58 CDT" finished-at="2022-06-07T02:47:17 CDT">
+      <class name="scripts.CarsSignInPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.CarsSignInPageTest@4dfa3a9d]" name="setup" is-config="true" duration-ms="1822" started-at="2022-06-07T02:46:58 CDT" finished-at="2022-06-07T02:47:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSignInWithEmail()[pri:1, instance:scripts.CarsSignInPageTest@4dfa3a9d]" name="testSignInWithEmail" duration-ms="5120" started-at="2022-06-07T02:47:00 CDT" description="TC001" finished-at="2022-06-07T02:47:05 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithEmail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.CarsSignInPageTest@4dfa3a9d]" name="teardown" is-config="true" duration-ms="841" started-at="2022-06-07T02:47:05 CDT" finished-at="2022-06-07T02:47:06 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.CarsSignInPageTest@4dfa3a9d]" name="setup" is-config="true" duration-ms="1225" started-at="2022-06-07T02:47:06 CDT" finished-at="2022-06-07T02:47:07 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testInvalidCredentials()[pri:2, instance:scripts.CarsSignInPageTest@4dfa3a9d]" name="testInvalidCredentials" duration-ms="9137" started-at="2022-06-07T02:47:07 CDT" description="TC002" finished-at="2022-06-07T02:47:16 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCredentials -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.CarsSignInPageTest@4dfa3a9d]" name="teardown" is-config="true" duration-ms="1035" started-at="2022-06-07T02:47:16 CDT" finished-at="2022-06-07T02:47:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.CarsSignInPageTest -->
+    </test> <!-- Critical Functionalities -->
+  </suite> <!-- Smoke -->
+</testng-results>
